@@ -7,4 +7,3 @@
 <!-- CSS and Initial JS -->
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/main.css">
-<script type="text/javascript" src="../js/lib/modernizr.min.js"></script>

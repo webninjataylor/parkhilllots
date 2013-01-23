@@ -4,4 +4,5 @@
 </footer>
 <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="../js/modernizr.min.js"></script>
+<script type="text/javascript" src="../js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../js/main.js?cachebust1"></script>

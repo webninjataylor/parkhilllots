@@ -52,7 +52,18 @@ function generateRows(data){
 if('#prices'){   //If the pricing table exists...
     $.getJSON('prices.json', function(data) {   //Load JSON, which is an array of arrays.
         $.each(data, function(row){   //Treat each array in the data as a row in the table.
-            $('#prices tr:last').after('<tr>'+generateRows(data[row])+'</tr>');
+            $('#prices tbody').append('<tr>'+generateRows(data[row])+'</tr>');
         });
+        /*$('#prices').dataTable({
+            "bPaginate": false,
+            "bLengthChange": false,
+            "bFilter": false,
+            "bInfo": false,
+            "bAutoWidth": false,
+            "aoColumnDefs": [{
+                "sType": "html",
+                "aTargets": [0]
+            }]
+        });*/
     });
-}
+};

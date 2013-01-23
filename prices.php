@@ -11,15 +11,18 @@
         <?php include('includes/menu.php'); ?>
         <article>
             <table id="prices">
-                <tr>
-                    <th>Lot Number</th>
-                    <th>Price</th>
-                    <th>Smith Avenue</th>
-                    <th>MLS</th>
-                    <th>Acreage</th>
-                    <th>Lot Type</th>
-                    <th>Status</th>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Lot Number</th>
+                        <th>Price</th>
+                        <th>Smith Avenue</th>
+                        <th>MLS</th>
+                        <th>Acreage</th>
+                        <th>Lot Type</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
             </table>
         </article>
     </section>
