@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+/************************/
+/******** COLORS ********/
+/************************/
+/*
+Dark Blue = 0f3658
+Mid-Blue = 375774
+Light Blue = 96b3ce
+Light Light Blue = b0c5d6  (home text on black)       e2eaf0
+Yellow = d2a510   (light = f4e8c3)
+Orange = fcac00
+Maroon = 661a03
+*/
+body {
+    background: url('../images/background.jpg') no-repeat fixed top;
+    border:1px solid rgba(0,0,0,1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(136, 136, 136, .5);
+    margin: 10px auto;
+    position: relative;
+    width: 960px;
+}
+/****************************************************************************************/
+/**************************************** HEADER ****************************************/
+/****************************************************************************************/
+header {
+    background: transparent url('../images/bg-banner.jpg') no-repeat -10px -40px;
+    position: relative;
+}
+#logo {
+    float: left;
+}
+#logotype {
+    color: rgba(21,25,62,1);
+    font-size: 48px;
+    font-weight: bold;
+    left: 20px;
+    position: relative;
+    top: 15px;
+}
+#agents {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/****************************************************************************************/
+/***************************************** MENU *****************************************/
+/****************************************************************************************/
+/*** TOP MENU ***/
+menu {
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+    clear: both;
+    font-size: 1em;
+    list-style: none;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 0;
+    /* START GRADIENT */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    /* END GRADIENT */
+}
+menu li {
+    float: left;
+    border-right:1px solid #000000;
+}
+menu li a, menu li a:visited {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    padding: 5px 9px;
+}
+menu li a:hover, menu li.active a {
+    color: #fcac00;
+    /* START GRADIENT */
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    /* END GRADIENT */
+}
+/****************************************************************************************/
+/**************************************** CONTENT ***************************************/
+/****************************************************************************************/
+h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+a, a:visited {
+    color: rgba(123,27,32,1);
+    font-weight: bold;
+}
+a:hover {
+    color: rgba(21,25,62,1);
+    font-weight: bold;
+}
+article {
+    background-color: rgba(255,255,255,0.5);
+    overflow: hidden;
+    padding: 10px 40px;
+}
+article ul {
+    padding-left: 20px;
+}
+#prices {
+    margin: 0 auto;
+}
+#prices th, #prices td {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+td.sold {
+    color: #ff0000;
+}
+.gallery {
+    border:1px solid #000000;
+    float: left;
+    margin-top: 10px;
+    width: 430px;
+}
+.gallery.odd {
+    margin-right: 10px;
+}
+th {
+    background-color: #0f3658;
+    color: #ffffff;
+}
+/****************************************************************************************/
+/**************************************** FOOTER ****************************************/
+/****************************************************************************************/
+footer {
+    background-color: rgba(255,255,255,0.5);
+    font-size: .8em;
+    padding: 10px;
+    text-align: center;
+}

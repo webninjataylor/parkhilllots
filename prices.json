@@ -1,0 +1,47 @@
+
+[
+    [3, "$59,000", 927, 77505, 0.39, "Single Family", "Available"],
+
+    [4, "$59,000", 931, 77509, 0.35, "Single Family", "Available"],
+
+    [5, "$59,000", 945, 77510, 0.35, "Single Family", "Sold!"],
+
+    [6, "$59,000", 949, 77512, 0.38, "Single Family", "Available"],
+
+    [7, "Sold!", 953, "", 0.00, "Single Family", "Sold!"],
+
+    [8, "$130,000", 957, 77520, 0.95, "Single Family", "Available"],
+
+    [9, "$100,000", 961, 77529, 0.96, "Single Family", "Available"],
+
+    [10, "$60,000", 965, 77521, 0.40, "Single Family", "Sold!"],
+
+    [11, "$64,000", 969, 77523, 0.37, "Single Family", "Available"],
+
+    [12, "$110,000", 973, 77530, 0.98, "Single Family", "Sold!"],
+
+    [13, "$125,000", 977, 77531, 1.21, "Single Family", "Available"],
+
+    ["14A/B", "$75,000", "981/983", 77535, 0.29, "Duplex", "Available"],
+
+    ["15A/B", "$75,000", "987/989", 77536, 0.35 , "Duplex", "Available"],
+
+    ["16A/B", "$75,000", "995/997", 77538, 0.38 , "Duplex", "Sold!"],
+
+    ["17A/B", "$70,000", "998/996", 77537, 0.33 , "Duplex", "Available"],
+
+    ["18A/B", "$70,000", "992/990", 77532, 0.33 , "Duplex", "Available"],
+
+    ["19A/B", "$70,000", "986/984", 77533, 0.30 , "Duplex", "Available"],
+
+    ["20A/B", "$75,000", "972/970", 77524, 0.32 , "Duplex", "Available"],
+
+    ["21A/B", "$75,000", "966/964", 77515, 0.36 , "Duplex", "Available"],
+
+    [22, "$49,000", 958, 77513, 0.40, "Single Family", "Sold!"],
+
+    [23, "$49,000", 954, 77514, 0.44, "Single Family", "Contract"],
+
+    [24, "$49,000", 950, 77506, 0.43, "Single Family", "Sold!"]
+
+]
