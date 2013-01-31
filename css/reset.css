@@ -50,12 +50,12 @@ body {
 }
 
 a {
-    color: rgb(0, 170, 255);
+    color: rgb(123,27,32);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(78, 196, 255);
+    color: rgb(123,27,32);
 }
 
 a:hover {

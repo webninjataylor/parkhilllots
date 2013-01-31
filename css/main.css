@@ -31,13 +31,8 @@ header {
 #logo {
     float: left;
 }
-#logotype {
-    color: rgba(21,25,62,1);
-    font-size: 48px;
-    font-weight: bold;
-    left: 20px;
-    position: relative;
-    top: 15px;
+#banner {
+    width: 400px;
 }
 #agents {
     padding: 5px;
@@ -123,7 +118,7 @@ article ul {
     padding: 5px;
 }
 td.sold {
-    color: #ff0000;
+    background-color: #999999;
 }
 .gallery {
     border:1px solid #000000;
@@ -138,6 +133,10 @@ th {
     background-color: #0f3658;
     color: #ffffff;
 }
+img.plats {
+    float: right;
+    width: 700px;
+}
 /****************************************************************************************/
 /**************************************** FOOTER ****************************************/
 /****************************************************************************************/
@@ -146,4 +145,102 @@ footer {
     font-size: .8em;
     padding: 10px;
     text-align: center;
+}
+/***************************************************************************************************/
+/**************************************** RESPONSIVE DESIGN ****************************************/
+/***************************************************************************************************/
+/* iPad Portrait View */
+/* NOTE: The default layout is optimized for iPad landscape, so it's not declared here. */
+/* NOTE: The min-width to max-width is for the sake of a fluidly resized window on a laptop or desktop browser. */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        width: 728px;
+    }
+    #agents {
+        background-color: rgba(255,255,255,0.5);
+        width: 170px;
+    }
+    #agents span {
+        margin-left: 30px;
+    }
+    menu li {
+        border-top: 1px solid #000000;
+    }
+}
+/* iPhone Landscape View */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        width: 440px;
+    }
+    header {
+        height: 180px;
+    }
+    #banner {
+        float: right;
+        position: relative;
+        top: 55px;
+        width: 320px;
+    }
+    menu {
+        border-top: none;
+        margin-bottom: 0;
+    }
+    menu li {
+        border-top: 1px solid #000000;
+    }
+    menu li a {
+        width: 201px;
+    }
+    img.plats {
+        width: 200px;
+    }
+}
+/* iPhone Portrait View */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    body {
+        background-image: none;
+        width: 280px;
+    }
+    header {
+        background-position: -440px 0px;
+    }
+    #banner {
+        width: 280px;
+    }
+    #agents {
+        width: 170px;
+    }
+    #agents span {
+        margin-left: 30px;
+    }
+    menu {
+        border-top: none;
+        margin-bottom: 0;
+    }
+    menu li {
+        border-top: 1px solid #000000;
+    }
+    menu li a {
+        width: 280px;
+    }
+    img.plats {
+        display: none;
+    }
+    article {
+        padding: 10px 10px;
+    }
+    .gallery {
+        width: 260px;
+    }
+    article.prices {
+        overflow: visible;
+        padding: 0;
+    }
+    #prices {
+        margin-top: 0;
+    }
+    #prices th, #prices td {
+        font-size: 8px;
+        padding: 3px;
+    }
 }

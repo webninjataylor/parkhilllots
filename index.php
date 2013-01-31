@@ -24,7 +24,7 @@
             </li>
             <li>Public roads maintained by City of Harrisonburg</li>
             <li>Public water and sewer</li>
-            <li>Lot prices starting at $59,900</li>
+            <li>Lot prices starting at $62,000</li>
             <li><a href="https://maps.google.com/maps?q=emu&hl=en&ll=38.47454,-78.875122&spn=0.011054,0.024848&sll=38.195157,-78.552744&sspn=0.710157,1.590271&t=v&hq=emu&z=15&iwloc=A">Close to Eastern Mennonite High School (EMHS) and Eastern Mennonite University (EMU)</a></li>
             <li>Choose your own builder or we can help</li>
           </ul>

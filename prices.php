@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <title>Park hills Lots: Current Prices</title>
     <?php include('includes/meta.php'); ?>
+    <meta http-equiv="cache-control" CONTENT="no-cache">
+    <meta http-equiv="pragma" CONTENT="no-cache">
 </head>
 <body ontouchmove="BlockMove(event);">
     <?php include('includes/header.php'); ?>
     <section>
         <?php include('includes/menu.php'); ?>
-        <article>
+        <article class="prices">
             <table id="prices">
                 <thead>
                     <tr>
@@ -24,6 +26,7 @@
                 </thead>
                 <tbody></tbody>
             </table>
+            <p style="text-align:center;">Prices subject to change at any time without notice</p>
         </article>
     </section>
     <?php include('includes/footer.php'); ?>
