@@ -13,7 +13,7 @@
             <h1>Plats</h1>
             <img src="images/plat.gif" alt="Plats" class="plats">
             <p><a href="docs/plats-details.pdf" target="_blank">View Detailed Plats</a></p>
-            <ul>
+            <ul id="plats">
                 <li><a href="docs/lot_13.pdf" target="_blank">Lot 13</a></li>
                 <li><a href="docs/lot_14.pdf" target="_blank">Lot 14</a></li>
                 <li><a href="docs/lot_15.pdf" target="_blank">Lot 15</a></li>

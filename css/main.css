@@ -163,8 +163,21 @@ footer {
     #agents span {
         margin-left: 30px;
     }
+    menu {
+        border-top: none;
+        margin-bottom: 0;
+    }
     menu li {
         border-top: 1px solid #000000;
+    }
+    menu li a {
+        width: 163px;
+    }
+    img.plats {
+        width: 500px;
+    }
+    .gallery {
+        width: 317px;
     }
 }
 /* iPhone Landscape View */
@@ -192,7 +205,29 @@ footer {
         width: 201px;
     }
     img.plats {
-        width: 200px;
+        display: none;
+    }
+    #plats li {
+        display: block;
+        float: left;
+        width: 125px;
+    }
+    article {
+        padding: 10px 20px;
+    }
+    .gallery {
+        width: 400px;
+    }
+    article.prices {
+        overflow: visible;
+        padding: 0;
+    }
+    #prices {
+        margin-top: 0;
+    }
+    #prices th, #prices td {
+        font-size: 12px;
+        padding: 3px;
     }
 }
 /* iPhone Portrait View */
