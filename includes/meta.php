@@ -4,5 +4,4 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="no" />
 <link rel="apple-touch-icon" href="images/ipad_homescreen_icon.png" />
 <!-- CSS and Initial JS -->
-<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/main.css">
