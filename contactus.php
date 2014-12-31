@@ -20,17 +20,6 @@
                 <a href="mailto:remaxperformance@comcast.net">remaxperformance@comcast.net</a><br />
                 </p>
             </section>
-            
-            <section style="float:left;">
-                <img src="images/lowell.jpg" alt="">
-                <h3>Lowell Wenger</h3>
-                <p>RE/MAX Performance Realty<br />
-                  Toll Free: 1-800-296-7369<br />
-                  Cell: 1-540-908-6356 <br />
-                <a href="mailto:JLWenger@aol.com">JLWenger@aol.com</a><br />
-                <a href="www.jlowellwenger.com">www.jlowellwenger.com</a>
-                </p>
-            </section>
         </article>
     </section>
     <?php include('includes/footer.php'); ?>

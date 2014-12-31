@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Park hills Lots</title>
+    <title>Parkhill Lots</title>
     <?php include('includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">

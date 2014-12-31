@@ -4,9 +4,7 @@
     <div id="agents">
         <div>
             <span class="name">Larry Martin:</span>
-            <span class="phone">540-820-8212</span></div>
-        <div>
-            <span class="name"><a href="http://www.jlowellwenger.com">J. Lowell Wenger</a>:</span>
-            <span class="phone">540-908-6356</span></div>
+            <span class="phone">540-820-8212</span>
+        </div>
     </div>
 </header>

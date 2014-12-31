@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Park hills Lots: Current Prices</title>
+    <title>Parkhill Lots: Current Prices</title>
     <?php include('includes/meta.php'); ?>
     <meta http-equiv="cache-control" CONTENT="no-cache">
     <meta http-equiv="pragma" CONTENT="no-cache">
